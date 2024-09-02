@@ -1,0 +1,187 @@
+/* Añade esta sección al final de tu archivo CSS */
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    /*.container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner-img {
+        height: auto; /* Ajusta la altura del banner para pantallas pequeñas */
+    /*}
+
+    /*.banner-img img {
+        width: 100%;
+        height: auto; /* Permite que la imagen se ajuste al contenedor en tamaño */
+    /*}
+
+    .overlay {
+        padding: 20px; /* Añade relleno para mejor legibilidad */
+   /* }
+
+   /* .overlay h2 {
+        font-size: 18px;
+    }
+
+    .overlay p {
+        font-size: 16px;
+    }
+
+    */
+    */.brand-content {
+        padding: 10px;
+        font-size: 16px;
+
+        
+    }
+
+
+    
+
+
+    /*section por que elegirnos?*/
+
+    .why-content {
+        flex-direction: column;
+        gap: 10px; /* Espacio entre los elementos en móviles */
+    }
+
+    .why-left, .why-right {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    .why-left p {
+        font-size: 16px;
+    }
+
+    .why-right img {
+        max-width: 100%;
+    }
+
+/* Ajustes responsivos para la sección Marcas de Baterías */
+
+    .brand-content {
+        display: flex;
+        flex-direction: column; /* Cambia la dirección de la disposición a columna */
+        gap: 20px; /* Espacio entre los elementos */
+        max-width: 960px; /* Ancho máximo para la sección */
+        margin: 0 auto; /* Centrar la sección */
+    }
+
+    .brand-item {
+        max-width: 100%; /* Asegura que los elementos ocupen el 100% del ancho */
+        margin-bottom: 20px; /* Espacio inferior entre elementos en móviles */
+        text-align: center; /* Alinea el contenido al centro */
+        padding: 20px; /* Espacio interno */
+        box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    }
+
+    .brand-item img {
+        max-width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+
+    .brand-item p {
+        min-height: auto; /* Permite que las descripciones crezcan con el contenido en móviles */
+        font-size: 16px; /* Tamaño de fuente */
+        color: #777; /* Color del texto */
+        margin: 10px 0 0; /* Ajusta el margen */
+    }
+
+    /*imagen responsive marcas*/
+
+    .marcas img {
+        max-width: 100%; /* La imagen ocupa el ancho máximo disponible */
+        height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+        display: block; /* Asegura que la imagen se comporte como bloque y no tenga espacios adicionales */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+      }
+      
+
+}
+
+
+/* Estilos para el footer en dispositivos móviles */
+
+@media (max-width: 768px) {
+    .site-footer {
+      padding: 10px 5px; /* Reducir el espacio interno del footer */
+    }
+  
+    .footer-content {
+      display: flex; /* Mostrar elementos como flexbox */
+      flex-wrap: wrap; /* Permitir el ajuste en líneas múltiples */
+      justify-content: space-between; /* Espaciado uniforme entre las columnas */
+    }
+  
+    .footer-column {
+      width: 48%; /* Ancho de cada columna */
+      text-align: left; /* Alinear texto a la izquierda */
+    }
+  
+    .footer-section {
+      width: 100%; /* Asegurar que ocupen todo el ancho disponible */
+      margin-bottom: 20px; /* Espacio inferior entre secciones */
+    }
+  
+    .footer-section h3 {
+      font-size: 18px; /* Reducir tamaño de fuente de los títulos de sección */
+      margin-bottom: 10px; /* Espacio inferior del título */
+    }
+  
+    .direccion-lista,
+    .numero-lista,
+    .redes-lista {
+      list-style-type: none; /* Quitar viñetas */
+      padding: 0;
+      margin: 0;
+    }
+  
+    .direccion-lista li,
+    .numero-lista li,
+    .redes-lista li {
+      font-size: 14px; /* Reducir tamaño de fuente de los elementos de lista */
+      line-height: 1.5; /* Ajustar altura de línea para mejorar legibilidad */
+      margin-bottom: 5px; /* Espacio inferior entre elementos de lista */
+    }
+  
+    .redes-lista {
+      margin-top: 20px; /* Espacio superior para la lista de redes sociales */
+    }
+  
+    .redes-lista li {
+      display: inline-block; /* Mostrar elementos de lista en línea */
+      margin-right: 10px; /* Espacio entre elementos de lista */
+    }
+  
+    .redes-lista a {
+      font-size: 14px; /* Tamaño de fuente para enlaces de redes sociales */
+      color: #fff;
+      text-decoration: none; /* Quitar subrayado */
+    }
+  
+    .footer-copyright {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+
+  /*navvv*/
+
+  

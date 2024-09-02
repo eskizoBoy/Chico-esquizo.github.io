@@ -1,0 +1,198 @@
+/* Estilos responsivos para la sección Marcas de Baterías */
+@media (max-width: 768px) {
+    .brand-content {
+        flex-direction: column; /* Cambia la dirección de la disposición a columna */
+        gap: 20px; /* Espacio entre los elementos */
+        max-width: 100%; /* Asegura que ocupe el 100% del ancho */
+        margin: 0 auto; /* Centrar la sección */
+    }
+
+    .brand-item {
+        width: 100%; /* Asegura que los elementos ocupen el 100% del ancho */
+        text-align: center; /* Alinea el contenido al centro */
+        padding: 20px; /* Espacio interno */
+        box-sizing: border-box; /* Incluye padding y border en el ancho total */
+        margin: 10px 0; /* Espacio entre los elementos */
+    }
+
+    .brand-item img {
+        max-width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+
+    .brand-item p {
+        min-height: auto; /* Permite que las descripciones crezcan con el contenido en móviles */
+        font-size: 16px; /* Tamaño de fuente */
+        color: #777; /* Color del texto */
+        margin: 10px 0; /* Ajusta el margen */
+    }
+
+    .btn {
+        width: 100%; /* Asegura que el botón ocupe el ancho completo */
+        padding: 10px; /* Ajusta el padding */
+        font-size: 16px; /* Tamaño de fuente */
+    }
+
+
+    /*responsive pq elegirnos*/
+    .why-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        max-width: 100%; /* Ancho máximo en móvil */
+        margin: 0 auto; /* Centrar */
+    }
+
+    .why-item {
+        flex: 1 0 calc(33.33% - 10px); /* Ajusta el ancho para que haya 3 elementos en una fila */
+        max-width: calc(33.33% - 10px); /* Asegura el tamaño máximo para tres elementos en fila */
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .why-item img {
+        max-width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+
+    .why-item p {
+        font-size: 14px; /* Tamaño de fuente */
+        color: #777; /* Color del texto */
+        margin: 10px 0 0; /* Ajusta el margen */
+    }
+}
+
+/* Estilos para el footer en dispositivos móviles */
+
+@media (max-width: 768px) {
+    .site-footer {
+      padding: 10px 5px; /* Reducir el espacio interno del footer */
+    }
+  
+    .footer-content {
+      display: flex; /* Mostrar elementos como flexbox */
+      flex-wrap: wrap; /* Permitir el ajuste en líneas múltiples */
+      justify-content: space-between; /* Espaciado uniforme entre las columnas */
+    }
+  
+    .footer-column {
+      width: 48%; /* Ancho de cada columna */
+      text-align: left; /* Alinear texto a la izquierda */
+    }
+  
+    .footer-section {
+      width: 100%; /* Asegurar que ocupen todo el ancho disponible */
+      margin-bottom: 20px; /* Espacio inferior entre secciones */
+    }
+  
+    .footer-section h3 {
+      font-size: 18px; /* Reducir tamaño de fuente de los títulos de sección */
+      margin-bottom: 10px; /* Espacio inferior del título */
+    }
+  
+    .direccion-lista,
+    .numero-lista,
+    .redes-lista {
+      list-style-type: none; /* Quitar viñetas */
+      padding: 0;
+      margin: 0;
+    }
+  
+    .direccion-lista li,
+    .numero-lista li,
+    .redes-lista li {
+      font-size: 14px; /* Reducir tamaño de fuente de los elementos de lista */
+      line-height: 1.5; /* Ajustar altura de línea para mejorar legibilidad */
+      margin-bottom: 5px; /* Espacio inferior entre elementos de lista */
+    }
+  
+    .redes-lista {
+      margin-top: 20px; /* Espacio superior para la lista de redes sociales */
+    }
+  
+    .redes-lista li {
+      display: inline-block; /* Mostrar elementos de lista en línea */
+      margin-right: 10px; /* Espacio entre elementos de lista */
+    }
+  
+    .redes-lista a {
+      font-size: 14px; /* Tamaño de fuente para enlaces de redes sociales */
+      color: #fff;
+      text-decoration: none; /* Quitar subrayado */
+    }
+  
+    .footer-copyright {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+
+
+
+
+  /*formulario*/
+
+   /* Estilos CSS para el formulario */
+   .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #555;
+}
+
+@media screen and (min-width: 768px) {
+    form {
+        max-width: 800px;
+    }
+}

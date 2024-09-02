@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a img {
+  width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  overflow: hidden; /* Esconde cualquier contenido desbordado */
+}
+
+.banner-img {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Puedes ajustar la altura según sea necesario */
+}
+
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen cubra el contenedor sin deformarse */
+  display: block; /* Elimina el espacio en línea blanca que a veces aparece con imágenes */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.overlay h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-contact {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-contact:hover {
+  background-color: #555;
+}
+
+
+
+
+
+/* Sección ¿Por qué elegirnos? */
+.why-choose-us {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.why-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.why-left {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.why-left p {
+  font-size: 18px;
+  color: #555;
+}
+
+.why-right {
+  flex: 1;
+  text-align: center;
+}
+
+.why-right img {
+  width: 100%;
+  max-width: 400px; /* Tamaño máximo de la imagen */
+  height: auto;
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+/* Sección Marcas de Baterías */
+.battery-brands {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.battery-brands h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.brand-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinear los elementos al inicio */
+  gap: 20px; /* Espacio entre los elementos */
+  max-width: 960px; /* Ancho máximo para la sección */
+  margin: 0 auto; /* Centrar la sección */
+  flex-wrap: wrap; /* Permitir el ajuste en líneas múltiples */
+}
+
+.brand-item {
+  flex: 1 0 calc(30% - 20px); /* Ajusta el ancho para que haya 3 elementos en una fila */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.brand-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.brand-item img {
+  width: 100%;
+  max-width: 200px; /* Tamaño máximo de la imagen */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.brand-item p {
+  font-size: 16px;
+  color: #777;
+  min-height: 60px; /* Altura mínima para las descripciones */
+  margin: 0; /* Asegura que no haya margen adicional */
+}
+
+
+/* Estilos para el footer */
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.direccion-lista,
+.numero-lista,
+.redes-lista {
+  list-style-type: none;
+  padding: 0;
+}
+
+.direccion-lista li,
+.numero-lista li,
+.redes-lista li {
+  margin-bottom: 10px;
+}
+
+.redes-lista a {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none; /* Quita subrayado de los enlaces */
+  display: block; /* Asegura que cada enlace ocupe todo el ancho del contenedor */
+}
+
+.redes-lista i {
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  color: #ccc;
+}
